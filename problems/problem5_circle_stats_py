@@ -1,0 +1,21 @@
+"""
+Fill out the functions to calculate the area and circumference of a circle.
+Print the result to the user.
+"""
+import math
+
+
+def area(r):
+    return math.pi ** r
+
+
+def circumference(r):
+    return 2 * math.pi * r
+
+
+radius = float(input("Circle radius: "))
+
+area = area(radius)
+perimeter = circumference(radius)
+print(f'Area: {area}')  # <-- Call the area function and print the result
+print(f'Circumference: {perimeter}')  # <-- Call the circumference function and print
